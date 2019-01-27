@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="login_css.css">
+	</head>
+	<body>
+		<dev class = "log-in">
+			<h1> Login Here </h1>
+			<form>
+			<label for = "Username"> Username </label>
+			<input type = "text" id = "username" name = "username" placeholder = "Enter username">
+
+			<br><label for = "password"> Password </label>
+			<input type = "password" id = "password" name = "password" placeholder = "Enter password">
+
+			<br><input type = "submit" value = "login" onclick="return process()">
+			<br><a href = "registration.html">Create new account. </a>
+			</form>
+			<div id = "status"></div>
+		</dev>
+		<script src = "login_validation.js"></script>
+	</body>
+</html>

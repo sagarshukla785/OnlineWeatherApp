@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="registration_css.css">
+	</head>
+	<body>
+		
+		<div class = "reg-in">
+		<h1> Register Here </h1>
+			<form>
+			<div>
+				<label for="firstname"> First Name </label>
+				<br><input type="text" id = "fn" name = "firstname" placeholder="First Name">
+
+				<br><label for="lastname"> Last Name </label>
+				<br><input type="text" id = "ln" name = "lastname" placeholder="Last Name">
+
+				<br><label for="emailaddress"> Email address </label>
+				<br><input type="text" id = "ed" name = "emailaddress" placeholder="Email Address">
+
+				<br><label for="password"> Password </label>
+				<br><input type="password" id = "pass1" name = "password" placeholder="Password">
+
+				<br><label for="confirmpassword"> Confirm password </label>
+				<br><input type="password" id = "pass2" name = "confirmpassword" placeholder="Confirm password">
+
+				<br><input type="submit" value = "Register" onclick = "return process()">
+				<br><a href = "login.html">Log in. </a>
+			</div>
+			</form>
+		</div>
+		<div id = "status"></div>
+		<script src = "registration_validation.js"></script>
+	</body>
+</html>

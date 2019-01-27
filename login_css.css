@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("loginbk.jpg");
+}
+
+.log-in{
+  width: 360px;
+  height: 440px;
+  background: #00688B;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  border-width: 1px;
+  border-color: #fff;
+  border-style: solid;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.log-in{
+  margin: 0;
+  padding: 0 0 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.log-in label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.log-in input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.log-in input[type="text"], .log-in input[type="password"]{
+  border: #fff;
+  border-bottom: 5px solid #fff;
+  background: #FFFFFF;
+  border-width: 1px;
+  border-color: #000;
+  border-style: solid;
+  width: 300px;
+  outline: #080808;
+  height: 40px;
+  padding-right: 8px;
+  padding-left: 8px;
+  color: #000;
+  font-size: 18px;
+}
+
+.log-in input[type="submit"]{
+  cursor: pointer;
+  background: #ffc107;
+  height: 46px;
+  width: 316px;
+  color: #fff;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 20px;
+}
+
+.log-in a{
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 20px;
+  color: #fff;
+}

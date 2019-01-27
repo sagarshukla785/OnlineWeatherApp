@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("loginbk.jpg") no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.reg-in{
+  width: 540px;
+  height: 730px;
+  background: #00688B;
+  color: #fff;
+  border-width: 1px;
+  border-color: #fff;
+  border-style: solid;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+
+.reg-in h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.reg-in label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+
+.reg-in input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.reg-in input[type="text"], .reg-in input[type="text"], .reg-in input[type="text"], .reg-in input[type="password"], .reg-in input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+  outline: none;
+  padding-right: 0px;
+  padding-left: 8px;
+  height: 40px;
+  color: #000;
+  font-size: 16px;	
+  border-width: 1px;
+  border-color: #000;
+  border-style: solid;
+}
+
+.reg-in input[type="submit"] {
+  cursor: pointer;
+  background: #ffc107;
+  height: 50px;
+  width: 468px;
+  color: #fff;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 28px;
+}
+
+.reg-in a{
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  left: 30;
+  line-height: 16px;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 40%;
+}

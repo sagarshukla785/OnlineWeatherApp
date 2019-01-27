@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="apipage_css.css">
+	</head>
+	<body>
+		<dev class = "sea-bar">
+			<input type="text" name="city" id="city" placeholder="Enter the city...">
+		</dev>
+		<dev class = "first">
+			<dev class = "ok"><button id = "submitWeather" onclick="process()"> Search </button></dev>
+			<dev class = "log-out"><button id = "logout" onclick="logout()"> Log out </button></dev>
+		</dev>
+		<dev class = "image">
+			<label> Current </label>
+			<br> <label> Weather </label>
+			<br> <label> Report </label>
+		</dev>
+		<dev class = "weatherReport">
+			<label id="lon"></label>
+			<br><label id="lat"></label>
+			<br><label id="temp"></label>
+			<br><label id="pre"></label>
+			<br><label id="humidity"></label>
+			<br><label id="temp_min"></label>
+			<br><label id="temp_max"></label>
+			<br><label id="sea_level"></label>
+			<br><label id="grnd_level"></label>
+			<br><label id="wind_speed"></label>
+			<br><label id="clouds_all"></label>
+		</dev>
+		<script src = "weather.js"></script>
+		<script src = "logout.js"></script>
+	</body>
+</html>
